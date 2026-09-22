@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Wendy Fasko — writer, journalist, literary critic, translator and researcher.">
+<title>Wendy Fasko — Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f2efe7; --ink:#151512; --muted:#716d63; --line:#c8c2b5;
+  --accent:#8c1d18; --panel:#e7e1d5; --max:1440px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+radial-gradient(circle at 20% 10%,rgba(255,255,255,.34),transparent 24%),
+radial-gradient(circle at 80% 70%,rgba(95,70,45,.035),transparent 28%),
+var(--paper);color:var(--ink);font-family:Inter,Arial,sans-serif;position:relative}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.17;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.08'/%3E%3C/svg%3E")}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--ink);color:var(--paper)}
+.wrap{max-width:var(--max);margin:auto;padding:0 28px}
+.mono,.eyebrow,.meta,.nav,.tag,.number{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.06em}
+.serif,h1,h2,h3,.quote{font-family:"Playfair Display",Georgia,serif}
+nav{position:sticky;top:0;z-index:50;background:rgba(242,239,231,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navbar{height:66px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font-family:"Playfair Display",serif;font-weight:700;font-size:22px}
+.navlinks{display:flex;gap:22px;font-size:11px}
+.navlinks a:hover{color:var(--accent)}
+.hero{min-height:88vh;display:grid;grid-template-columns:1.35fr .65fr;align-items:end;padding:8vh 0 7vh;border-bottom:1px solid var(--line)}
+.kicker{font-size:11px;margin-bottom:28px}
+h1{font-size:clamp(64px,9vw,145px);line-height:.82;letter-spacing:-.055em;margin:0;max-width:1000px}
+.hero h1 em{font-weight:600}
+.hero-side{align-self:end;padding:0 0 8px 36px;border-left:1px solid var(--line)}
+.hero-side p{font-size:18px;line-height:1.55;margin:0 0 22px}
+.hero-side .small{font-size:12px;color:var(--muted)}
+.statement{padding:11vh 0;border-bottom:1px solid var(--line)}
+.statement p{font-family:"Playfair Display",serif;font-size:clamp(32px,4.6vw,72px);line-height:1.05;letter-spacing:-.03em;max-width:1220px;margin:0}
+.statement .accent{color:var(--accent);font-style:italic}
+.section{padding:90px 0;border-bottom:1px solid var(--line)}
+.section-head{display:grid;grid-template-columns:160px 1fr;gap:24px;margin-bottom:52px}
+.section-head .number{font-size:11px;color:var(--accent)}
+.section-head h2{font-size:clamp(42px,6vw,82px);line-height:.95;letter-spacing:-.04em;margin:0}
+.section-head p{max-width:650px;color:var(--muted);line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.card{border-top:1px solid var(--ink);padding:18px 0 26px;grid-column:span 6}
+.card.wide{grid-column:span 8}.card.narrow{grid-column:span 4}
+.meta{font-size:10px;color:var(--muted);margin-bottom:24px;display:flex;flex-wrap:wrap;gap:8px 14px}
+.card h3{font-size:clamp(30px,3vw,52px);line-height:1;margin:0 0 16px;letter-spacing:-.03em;transition:color .2s ease}
+.card:hover h3{color:var(--accent)}
+.card .deck{font-family:"Playfair Display",serif;font-style:italic;font-size:20px;line-height:1.35;margin-bottom:18px}
+.card p{line-height:1.65;color:#393730;max-width:760px}
+.link{display:inline-block;margin-top:14px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;border-bottom:1px solid var(--ink);padding-bottom:3px}
+.link:hover{color:var(--accent);border-color:var(--accent)}
+.redline{color:var(--accent)}
+.editor-note{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);border-left:2px solid var(--accent);padding-left:10px;margin:16px 0 22px}
+.credits{display:flex;flex-wrap:wrap;gap:10px 22px;margin:30px 0 0;padding-top:18px;border-top:1px solid var(--line);font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.index-note{font-family:"DM Mono",monospace;font-size:9px;color:var(--muted);max-width:550px;line-height:1.7}
+.feature{background:var(--ink);color:var(--paper);padding:54px;margin:28px 0}
+.feature .meta,.feature p{color:#c8c1b4}.feature .link{border-color:var(--paper)}
+.feature h3{font-size:clamp(42px,6vw,86px)}
+.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+details{border-top:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;font-family:"Playfair Display",serif;font-size:24px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-family:"DM Mono",monospace}
+details[open] summary:after{content:"−"}
+.abstract{max-width:800px;line-height:1.7;color:#3e3b34;padding:18px 0 6px}
+.quote{font-size:clamp(28px,4vw,56px);font-style:italic;line-height:1.08;margin:48px 0}
+.orbit{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);margin:34px 0}
+.orbit div{padding:28px;border-right:1px solid var(--line)}.orbit div:last-child{border:0}
+.orbit strong{display:block;font-family:"DM Mono",monospace;font-size:10px;margin-bottom:14px}
+.language-list{columns:2;column-gap:50px}
+.language-list p{break-inside:avoid;border-top:1px solid var(--line);padding:12px 0;margin:0}
+footer{padding:70px 0 40px}
+.footer-big{font-family:"Playfair Display",serif;font-size:clamp(48px,8vw,120px);letter-spacing:-.05em;line-height:.9}
+.footer-grid{display:grid;grid-template-columns:1fr 1fr;margin-top:50px;gap:30px}
+.badge{font-family:"DM Mono",monospace;font-size:9px;border:1px solid currentColor;padding:4px 7px;text-transform:uppercase;display:inline-block}
+.marginalia{font-family:"DM Mono",monospace;font-size:10px;line-height:1.5;color:var(--accent);margin:22px 0;text-transform:lowercase;letter-spacing:.02em}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 48px}
+.filter{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;border:1px solid var(--line);padding:8px 11px;border-radius:99px}
+.filter:hover{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+@media(max-width:850px){
+ .navlinks{display:none}.hero{grid-template-columns:1fr;min-height:auto;padding:90px 0 50px}.hero-side{border:0;padding:45px 0 0;max-width:620px}
+ .section-head{grid-template-columns:1fr}.card,.card.wide,.card.narrow{grid-column:1/-1}.feature{padding:30px}.feature-grid{grid-template-columns:1fr}
+ .orbit{grid-template-columns:1fr}.orbit div{border-right:0;border-bottom:1px solid var(--line)}.language-list{columns:1}.footer-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<nav><div class="wrap navbar"><a class="brand" href="#top">Wendy Fasko</a><div class="nav navlinks">
+<a href="#writing">Writing</a><a href="#fiction">Fiction</a><a href="#translation">Translation</a><a href="#research">Research</a><a href="#systems">Things I Build</a><a href="#thinking">Obsessions</a><a href="#about">About</a>
+</div></div></nav>
+
+<main id="top">
+<div class="wrap">
+<section class="hero">
+<div>
+<div class="mono kicker">WENDY FASKO / INDEX № 001 / MMXXVI</div>
+<h1>Language.<br>Power.<br><em>Memory.</em><br>Systems.</h1>
+</div>
+<div class="hero-side">
+<p>I write about countries and the people who carry them around. About books, borders, bodies, dictatorships, bad technology, good sentences, memory, migration, and the occasional cultural disaster.</p>
+<p>Sometimes I write fiction. Sometimes criticism. Sometimes journalism. Sometimes I build the thing I wish existed.</p>
+<p class="small mono">Writer · Journalist · Literary Critic · Translator · Researcher<br>Albanian · Italian · English · and several ongoing complications</p>
+<div class="credits"><span>laFeltrinelli / Maremosso</span><span>Peizazhe të Fjalës</span><span>Fiction</span><span>Independent essays</span></div>
+</div>
+</section>
+
+<section class="statement">
+<p>I was born between Italian and Albanian and apparently decided <span class="accent">two languages were not enough trouble.</span></p>
+</section>
+
+<section class="section" id="writing">
+<div class="section-head"><div class="number">01 / Writing</div><div><h2>Things I have<br>thought too much about.</h2><p>Albania after communism. Books before and after translation. Borders, bodies, political memory, platforms, bad adaptations, and the occasional cultural object that has annoyed me enough to become an essay.</p></div></div>
+
+<div class="filters">
+<span class="filter">Albania</span><span class="filter">Literature</span><span class="filter">Language</span><span class="filter">Power</span><span class="filter">Migration</span><span class="filter">Technology</span><span class="filter">Body</span><span class="filter">Memory</span><span class="filter">Norway</span>
+</div>
+<div class="feature">
+<div class="feature-grid"><div>
+<div class="meta"><span class="badge">Published externally</span><span>Albanian · Peizazhe të Fjalës · 2026</span></div>
+<h3 class="serif">DIKTATURA BËRI UPDATE</h3>
+<div class="deck">What does censorship look like when nobody appears to be the censor?</div>
+</div><div>
+<p>Beginning with restrictions affecting Albanian activist and media accounts, the essay examines a political environment in which control over public information can be distributed across platforms, automated moderation, copyright systems, media ownership and political power. It deliberately resists claims unsupported by evidence and asks what happens when old habits of power encounter twenty-first-century infrastructure.</p>
+<a class="link" target="_blank" rel="noopener" href="https://peizazhe.com/2026/09/11/diktatura-beri-update/">Read in Albanian ↗</a>
+</div></div>
+</div>
+
+<div class="grid">
+<article class="card wide"><div class="meta">Italian · Literature / Translation · Independent</div><h3>Gli albanesi non leggono</h3><p class="deck">What exactly have Albanian readers been given the opportunity to read?</p><p>An essay on reading culture as infrastructure: literary translation, publishing, the circulation of diaspora writing and what happens when the world enters a smaller language through too few doors.</p><a class="link" target="_blank" rel="noopener" href="https://wendyfasko.substack.com/p/gli-albanesi-non-leggono">Read in Italian ↗</a></article>
+<article class="card narrow"><div class="meta">Italian · Literary criticism</div><div class="marginalia">[translation route: SQ → FR → IT. yes, this bothers me.]</div><h3>La doppia genesi di Ismail Kadare</h3><p>Kadare, translation and the literary detour Albania → French → Italian: a study of what happens to authorship when intermediary languages become part of a writer's international life.</p><a class="link" target="_blank" rel="noopener" href="https://wendyfasko.substack.com/p/la-doppia-genesi-di-ismail-kadare">Read ↗</a></article>
+
+<article class="card"><div class="meta">Norwegian · Cultural essay · Submitted / unpublished</div><h3>Hvordan Norge ble hørbart</h3><p class="deck">Jon Fosse stopped listening to music before he became a writer. Norwegian black metal made Norway audible to people who had never been there.</p><p>An admittedly strange pairing of Fosse and Darkthrone becomes an essay about how place enters art through rhythm, silence, weather, repetition and sound — without needing to explain itself.</p></article>
+<article class="card"><div class="meta">Swedish · Essay · 2026</div><h3>Ett land som flyttade med</h3><p class="deck">How much of a country is actually attached to the ground?</p><p>On Kosovo-Albanian life in Sweden, inherited memory, family language and diaspora as a historical space of its own — where two geographies slowly begin to exist inside the same people.</p></article>
+
+<article class="card"><div class="meta">English · Mental health / public discourse</div><h3>“Reach Out” Is Not a Prevention Strategy</h3><p>A critique of the way public conversations can reduce suicide prevention to individual disclosure while leaving social, institutional and material conditions outside the frame.</p><a class="link" target="_blank" rel="noopener" href="https://theworldaccordingtowendy.substack.com/p/reach-out-is-not-a-prevention-strategy">Read in English ↗</a></article>
+<article class="card"><div class="meta">English · Biology / political theory</div><h3>Telomeres: The Cellular Logic of Biopolitics</h3><p>Cellular ageing meets political theory: an essay using telomeres to think about how bodies, time and systems of regulation become entangled.</p><a class="link" target="_blank" rel="noopener" href="https://theworldaccordingtowendy.substack.com/p/telomeres-the-cellular-logic-of-biopolitics">Read in English ↗</a></article>
+<article class="card wide"><div class="meta">English · Literary / philosophical essay · Work in progress</div><div class="marginalia">[starting point: time travel. actual problem: irreversibility.]</div><h3>The Children Who Tried to Escape Time</h3><p class="deck">What if the fantasy of time travel is really the fantasy that consequence can be revised?</p><p>Beginning with science fiction as a point of departure, this essay follows a much older literary problem: the discrepancy between chronological time and the way human beings actually inhabit it. Augustine, Bergson, Proust, Borges, Thomas Mann, Vonnegut, Sebald, Márquez and Gospodinov become different ways of thinking about memory, duration, trauma, repetition, nostalgia and the unbearable fact that a life cannot be edited backwards.</p><p>The question that survives the time machine is the one literature has been asking all along: how do we remain in a present that cannot be corrected?</p></article>
+</div>
+
+<div style="margin-top:40px">
+<details><summary>More essays / Albania, culture & power</summary><div class="abstract">
+<p><a class="link" target="_blank" href="https://wendyfasko.substack.com/p/ventanni-dopo-leuropa-si-e-posta">Vent'anni dopo, l'Europa si è posta ancora la domanda sbagliata sul Kosovo ↗</a></p>
+<p><a class="link" target="_blank" href="https://wendyfasko.substack.com/p/le-donne-che-hanno-salvato-lalbania">Le donne che hanno salvato l'Albania ↗</a></p>
+<p><a class="link" target="_blank" href="https://theworldaccordingtowendy.substack.com/p/the-flamingo-revolution-needs-to">The Flamingo Revolution needs to move out of the wetlands and into the living room ↗</a></p>
+<p><a class="link" target="_blank" href="https://theworldaccordingtowendy.substack.com/p/dysfunction-at-the-border-the-rise">Dysfunction at the Border ↗</a></p>
+<p><a class="link" target="_blank" href="https://theworldaccordingtowendy.substack.com/p/middle-east-tensions-spike-after">Middle East tensions spike after Israel and U.S. strike Iran ↗</a></p>
+</div></details>
+<details><summary>More essays / literature & culture</summary><div class="abstract"><p><a class="link" target="_blank" href="https://theworldaccordingtowendy.substack.com/p/wuthering-heights-2026-is-a-milkmaid">Wuthering Heights (2026) is a milkmaid latex cosplay and nothing else ↗</a></p></div></details>
+</div>
+</section>
+
+<section class="section" id="editorial">
+<div class="section-head"><div class="number">02 / Criticism</div><div><h2>Books,<br><span class="redline">professionally.</span></h2><p>For Maremosso / laFeltrinelli I wrote literary criticism, reviews and cultural journalism across contemporary fiction, classics, publishing, film and cultural history. In other words: I spent several years professionally taking other people's books apart. Carefully.</p><div class="editor-note">Two of those reviews covered novels selected as Premio Strega finalists.</div></div></div>
+<div class="grid">
+<article class="card"><div class="meta"><span class="badge">Maremosso / laFeltrinelli</span><span>Italian · Literary criticism · 2024</span><span class="badge">Premio Strega finalist</span></div><h3>Aggiustare l'universo</h3><p class="deck">Raffaella Romagnolo</p><p>A critical reading of historical memory, childhood and reconstruction in the first Italian school year after the Second World War — where the past matters because it continues to reorganise the present.</p><a class="link" target="_blank" href="https://maremosso.lafeltrinelli.it/recensioni/aggiustare-l-universo-raffaella-romagnolo-libro">Read official review ↗</a></article>
+<article class="card"><div class="meta"><span class="badge">Maremosso / laFeltrinelli</span><span>Italian · Literary criticism</span><span class="badge">Premio Strega finalist</span></div><h3>Il fuoco invisibile</h3><p class="deck">Daniele Rielli</p><p>Xylella becomes landscape, ecological catastrophe, scientific uncertainty, politics and cultural wound: a book living in the unstable territory between investigation and literature.</p><a class="link" target="_blank" href="https://maremosso.lafeltrinelli.it/recensioni/il-fuoco-invisibile-daniele-rielli-libro">Read official review ↗</a></article>
+<article class="card"><div class="meta">Italian · Literary / cultural essay</div><h3>William S. Burroughs: vita e arte al limite</h3><p>On Burroughs, the Beat Generation, cut-up, counterculture and what happens when literature tries to dismantle its own machinery.</p><a class="link" target="_blank" href="https://maremosso.lafeltrinelli.it/approfondimenti/william-s-burroughs-biografia-libri-saggi">Read ↗</a></article>
+<article class="card"><div class="meta">Italian · Books / screen culture</div><h3>Il Gattopardo</h3><p>From Lampedusa to contemporary screen culture: the problem every adaptation inherits when it touches a cultural monument.</p><a class="link" target="_blank" href="https://maremosso.lafeltrinelli.it/news/il-gattopardo-serie-tv-netflix-trama">Read ↗</a></article>
+</div>
+<p style="margin-top:30px"><a class="link" target="_blank" href="https://maremosso.lafeltrinelli.it/autori/wendy-fasko">View Wendy's laFeltrinelli author archive ↗</a></p>
+</section>
+
+<section class="section" id="fiction">
+<div class="section-head"><div class="number">03 / Fiction</div><div><h2>The dead occasionally<br>turn up.</h2><p>Long-form fiction about family, Albania, political inheritance, mortality and the inconvenient persistence of memory.</p></div></div>
+<div class="feature">
+<div class="meta">Novel · Written in Italian · Under contract</div><div class="marginalia" style="color:#d77f74">[family history has terrible boundaries]</div><h3>TELOMERI</h3>
+<div class="feature-grid"><div><p class="deck">A man spent his life serving a regime. Only when he is dying does he realise the regime may have been the least complicated thing about it.</p><p>Set in Albania between the communist 1980s and 2023, <em>Telomeri</em> follows Sandri Golemi, former Communist Party secretary of the Berat district, as a rare cancer forces him to look back at a life surrendered to political cowardice, paranoia and the consequences of choices made under dictatorship.</p></div>
+<div><p>Agnesa, his marriage, doubts over his daughter's paternity and the loss of his childhood friend Papi turn political history into domestic damage. Years later Sandri leaves Albania for the first time to find Papi in America. He arrives too late.</p><p><strong>The dictatorship eventually falls. Its citizens still have to live with what it taught them.</strong></p></div></div>
+<div class="quote">The living move forward. The dead get closer.</div>
+<p><strong>Why <em>Telomeri</em>?</strong> Telomeres shorten as cells divide. In the novel, distance behaves similarly: as Sandri approaches death, the distances separating him from the people he has lost begin to contract.</p>
+<p><strong>Language:</strong> the novel is written in Italian while its narrative and historical world is Albanian. That movement — carrying Albania into Italian — later reverses in my translation practice, where I bring literature written elsewhere directly into Albanian.</p>
+</div>
+<div class="card"><div class="meta">Published novel · BooksprintEdizioni · 2018 · 280 pp.</div><h3>Expertus metuit</h3><p>My first published novel. Proof, among other things, that I have been making my problems unnecessarily long-form for quite some time.</p></div>
+</section>
+
+<section class="section" id="translation">
+<div class="section-head"><div class="number">04 / Translation</div><div><h2>What survives when<br>a sentence changes language?</h2><p>I grew up between Albanian and Italian. Translation turned that biographical accident into a working question: what happens when languages meet directly, without asking a larger language to supervise the conversation?</p></div></div>
+<div class="grid">
+<article class="card wide"><div class="meta">Current project · Norwegian → Albanian · 2026</div><div class="marginalia">[translation note № 04: repetition is not a problem to solve]</div><h3>Johan Harstad<br><em>Max, Mischa & Tetoffensiven</em></h3><p class="deck">I started translating Harstad for a fairly selfish reason. I wanted to hear what he sounded like in Albanian.</p><p>Harstad's prose accumulates, digresses and repeats itself until repetition becomes structure. The problem is not how to make him beautiful in Albanian. He already knows what he is doing. The problem is knowing when <strong>not</strong> to improve him.</p><p>The sample is translated directly from Norwegian, without an intermediary language, and is being developed for potential presentation to publishers in Albania and Kosovo, subject to rightsholder clearance.</p></article>
+<article class="card narrow"><div class="meta">Lexical architecture</div><h3>hjem → shtëpi</h3><p>Home. A very ordinary word until a thousand-page novel keeps asking where it is.</p><p>Preserving recurring lexical networks matters more to me than elegantly varying them away.</p></article>
+</div>
+<div class="quote">Keep the strangeness. Remove only the strangeness caused by passing from one language into another.</div>
+</section>
+
+<section class="section" id="research">
+<div class="section-head"><div class="number">05 / Research</div><div><h2>I like questions that<br>refuse one department.</h2><p>Digital Humanities, journalism, language, political theory, AI and the systems that decide what can be said, found, translated, measured or remembered.</p></div></div>
+<div class="feature">
+<div class="meta">Research proposal submitted to OsloMet · 2026</div>
+<div class="marginalia" style="color:#d77f74">[current research problem: who gets to name tomorrow?]</div>
+<h3>Norwegian Journalism and the Politics of Linguistic Survival</h3>
+<p class="deck">A journalist sits down to write about a technology that did not exist five years ago. English already has the word. Norwegian has a decision to make.</p>
+<p>The project treats language as journalistic infrastructure and asks how digital journalism can help Norwegian remain not merely alive, but capable of naming contemporary public reality in an English-dominated technological environment. It considers newsroom terminology, technology and science reporting, platforms, search, AI-assisted writing, and the unequal digital conditions of Bokmål and Nynorsk.</p>
+<div class="quote">Can a language preserve its past perfectly well while gradually losing the ability to describe its future?</div>
+</div>
+<div class="grid" style="margin-top:24px">
+<article class="card"><div class="meta">Essay / research thread · Biology · Political theory</div><h3>Telomeres & biopolitics</h3><p>What began as a biological structure at the end of a chromosome became a way of thinking about time, bodies, regulation and the politics of keeping populations alive.</p><a class="link" target="_blank" rel="noopener" href="https://theworldaccordingtowendy.substack.com/p/telomeres-the-cellular-logic-of-biopolitics">Read in English ↗</a></article>
+<article class="card"><div class="meta">Digital Humanities · Journalism · Platform studies</div><h3>Who gets to organise public knowledge?</h3><p>A recurring research question across my journalism and Digital Humanities work: platforms do not simply distribute information. Their interfaces, moderation systems, search logic and language models help decide what becomes visible, legible and easy to say.</p></article>
+</div>
+</section>
+
+<section class="section" id="systems">
+<div class="section-head"><div class="number">06 / Things I Build</div><div><h2>Sometimes the essay<br>turns into a prototype.</h2><p>Technology is one of the systems I write about. Occasionally I get sufficiently annoyed with the existing version that I build an alternative.</p></div></div>
+<div class="grid"><article class="card wide"><div class="meta">Founder & Product Developer · 2026–Present</div><div class="marginalia">[design note: humans are inconvenient. design accordingly.]</div><h3>ORBITALKORA</h3><p class="deck">The Energy Operating System for Humans.</p><p>I got tired of software behaving as though every human wakes up with the same brain, body, energy and capacity every morning. So I designed the opposite.</p><p>OrbitalKora is an accessibility-first digital system built around changing energy, attention, executive function and capacity. I developed its product concept, information architecture, interaction model, feature system, ethical framework, business strategy and initial functional prototype.</p></article>
+<article class="card narrow"><div class="meta">Principles</div><h3>Accessibility is architecture.</h3><p>Rest is information, not failure.</p><p>AI suggests. Humans decide.</p></article></div>
+<div class="orbit"><div><strong>Alignment / Morning</strong>What capacity do I actually have today?</div><div><strong>Navigation / Day</strong>What happens when attention fragments or the plan stops working?</div><div><strong>Re-entry / Evening</strong>What can be learned without turning unfinished work into failure?</div></div>
+<div class="grid" style="margin-top:34px"><article class="card"><div class="meta">Clean technology · Concept development</div><h3>MoXy</h3><p>An urban moss bioreactor concept developed around a slightly unreasonable question: what if data-centre infrastructure could become part of the carbon-capture landscape instead of merely occupying it?</p></article>
+<article class="card"><div class="meta">The recurring problem</div><h3>Systems are never neutral.</h3><p>Whether the system is a newsroom, a platform, a language, a body or a piece of software, I keep ending up in the same place: who was it designed for, what does it assume, and who has to adapt when those assumptions are wrong?</p></article></div>
+</section>
+
+
+<section class="section" id="thinking">
+<div class="section-head"><div class="number">08 / Currently Thinking About</div><div><h2>The tabs currently<br>open in my head.</h2><p>Not a research agenda. Not quite. Give it time. This is usually how the trouble starts.</p></div></div>
+<div class="grid">
+<article class="card"><div class="meta">Albania</div><h3>Afterlives</h3><p>What happens to a dictatorship after the dictatorship ends? I am less interested in monuments than in what survives at the dinner table: habits, silences, fear, jokes, family mythology.</p></article>
+<article class="card"><div class="meta">Translation</div><h3>No intermediary, please.</h3><p>Why do smaller languages so often need a larger language to introduce them? And what becomes possible when Albanian and Norwegian simply speak to each other?</p></article>
+<article class="card"><div class="meta">Time</div><h3>Proust. Borges. Mann. Gospodinov.</h3><p>Augustine and Bergson on lived time. Proust on memory. Borges on branching possibility. Thomas Mann on time becoming strange under altered conditions. Vonnegut on trauma and chronology. Sebald on the persistence of history. Márquez on repetition. Gospodinov on nostalgia becoming architecture. I started from time travel and somehow ended up here.</p></article>
+<article class="card"><div class="meta">Technology</div><h3>The imaginary user</h3><p>Why does software keep being designed for a human who is never tired, overwhelmed, disabled, distracted, grieving, hormonal or simply having a terrible Tuesday?</p></article>
+<article class="card"><div class="meta">Literature</div><h3>How much can a sentence carry?</h3><p>And can criticism explain why it works without killing it in the process?</p></article>
+<article class="card"><div class="meta">Norway</div><h3>Currently taking up an unreasonable amount of space in my brain.</h3><p>Fosse, Harstad, journalism, linguistic survival, black metal, landscape, and the increasingly suspicious amount of Norwegian in my browser history.</p></article>
+</div>
+</section>
+
+<section class="section" id="languages">
+<div class="section-head"><div class="number">09 / Languages</div><div><h2>I don't collect languages.<br>I get attached to them.</h2><p>Albanian and Italian were there before I had any say in the matter. English became a language I could write in without feeling I was visiting. French and Spanish followed. Norwegian is currently causing problems.</p></div></div>
+<div class="language-list">
+<p><strong>Albanian</strong> — Native</p><p><strong>Italian</strong> — Native</p><p><strong>English</strong> — C2, Cambridge certified</p><p><strong>French</strong> — Near-native proficiency</p><p><strong>Spanish</strong> — Near-native proficiency</p><p><strong>Norwegian (Bokmål)</strong> — Strong literary reading comprehension · spontaneous written production · actively developing</p><p><strong>Russian</strong> — Upper-intermediate</p><p><strong>Greek</strong> — Upper-intermediate</p><p><strong>German</strong> — Reading & conversational</p><p><strong>Swedish</strong> — Reading comprehension · spontaneous written production</p><p><strong>Danish</strong> — Reading comprehension · spontaneous written production</p><p><strong>Japanese</strong> — Reading & conversational</p><p><strong>Korean</strong> — Elementary</p>
+</div>
+</section>
+
+<section class="section" id="about">
+<div class="section-head"><div class="number">10 / Who is Wendy?</div><div><h2>And why is she<br>doing all this?</h2></div></div>
+<div class="grid"><div class="card wide"><p class="deck">I am Italian-Albanian, which means the question “where are you from?” has never been particularly efficient.</p><p>I studied literature because I wanted to understand stories, Digital Humanities because apparently literature was not complicated enough, journalism because I wanted to ask questions in public, and clean technologies because at some point nobody stopped me.</p><p>I became a novelist first. Then a literary critic. Then a journalist. Then I started building things. Translation came from the same place everything else did: language, migration, literature, and a tendency to follow a question considerably further than necessary.</p><p>There is a logic to this. I promise.</p><p>Most of my work eventually comes back to the same problem: <strong>what happens to human beings when they have to live inside systems — political, linguistic, technological, biological — that were not quite designed for them?</strong></p><p>Sometimes the answer is an essay. Sometimes a novel. Sometimes software. Occasionally it takes more than a thousand pages and is written in Norwegian.</p></div>
+<div class="card narrow"><div class="meta">Education</div><p><strong>Scuola Holden</strong><br>MA · Journalism, Creative Writing, Media, Publishing & Editorial Marketing · 2024</p><p><strong>University of Bologna</strong><br>MA · Digital Humanities and Digital Knowledge · 2022<br><br>BA · Modern Literature · 2020 · Thesis in Narratology</p><p><strong>Politecnico di Torino / EIT</strong><br>Specialization · Clean Technologies · 2025</p></div></div>
+</section>
+
+<section class="statement"><p>My academic history makes considerably more sense if you assume I have never once seen a disciplinary boundary without wondering <span class="accent">what was on the other side.</span></p></section>
+
+<footer id="contact">
+<div class="footer-big">Let's talk.</div>
+<div class="footer-grid"><div><p>Editorial commissions, criticism, fiction, translation, research, product collaborations and interesting problems.</p><p><a class="link" href="mailto:wendy.fasko@gmail.com">wendy.fasko@gmail.com ↗</a></p></div>
+<div class="mono" style="font-size:10px;color:var(--muted)">Wendy Fasko · INDEX / 2026<br>Writer · Journalist · Literary Critic · Translator · Researcher<br><br>Italy · Albania · Europe<br><br><span style="color:var(--accent)">Set in Playfair Display / Inter / DM Mono<br>Old paper. Black ink. Oxblood notes.</span></div></div>
+</footer>
+</div>
+</main>
+</body>
+</html>
